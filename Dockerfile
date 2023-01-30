@@ -1,4 +1,4 @@
-FROM maven:3-adoptopenjdk-14
+FROM ubuntu:latest
 RUN apt-get update -y
-RUN apt-get install curl wget git build-essential cmake -y
+RUN apt-get install curl wget git build-essential cmake maven -y
 CMD /usr/bin/bash
