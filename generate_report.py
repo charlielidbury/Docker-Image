@@ -27,7 +27,7 @@ def main():
         divider = "=" * 80 + "\n"
         out_file.write(divider)
         for git_file in file_names:
-            if not exists(git_file) == 0:
+            if not exists(git_file):
                 print("WARNING: skipping file {}".format(git_file))
                 continue
             out_file.write("{}\n".format(git_file))
