@@ -12,10 +12,11 @@ def main():
     ls_cmd = "git ls-tree -r main --name-only"
     file_names = [
         "./Breakdown.txt",
-        "./CppBenchmark/Source/CppBenchmark.hpp",
-        "./CppBenchmark/Source/CppBenchmark.cpp",
-        "./CppBenchmark/Tests/CppBenchmarkTests.cpp",
-        "./CppBenchmark/Benchmarks/CppBenchmarkBenchmarks.cpp",
+        "./RustBenchmark/src/tablesaw.rs",
+        "./RustBenchmark/src/tablesaw/selection.rs",
+        "./RustBenchmark/src/tablesaw/table.rs",
+        "./RustBenchmark/src/tablesaw/tableslice.rs",
+        "./RustBenchmark/benches/benchmark.rs",
         "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/MyBenchmark.java",
         "./TargetApplication/src/main/java/uk/ac/ic/doc/spe/covidsaw/App.java",
     ]
