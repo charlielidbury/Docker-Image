@@ -19,6 +19,7 @@ def main():
         "./RustBenchmark/benches/benchmark.rs",
         "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/MyBenchmark.java",
         "./TargetApplication/src/main/java/uk/ac/ic/doc/spe/covidsaw/App.java",
+        "./csv-gen.py",
     ]
     dir_name = "./out"
     out_file_name = join(dir_name, "report.txt")
