@@ -16,10 +16,12 @@ def main():
         "./RustBenchmark/src/tablesaw/selection.rs",
         "./RustBenchmark/src/tablesaw/table.rs",
         "./RustBenchmark/src/tablesaw/tableslice.rs",
+        "./RustBenchmark/src/tablesaw/rle_bitmap.rs",
         "./RustBenchmark/benches/benchmark.rs",
         "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/MyBenchmark.java",
+        "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/Permutations.java",
         "./TargetApplication/src/main/java/uk/ac/ic/doc/spe/covidsaw/App.java",
-        "./csv-gen.py",
+        "./Report.txt",
     ]
     dir_name = "./out"
     out_file_name = join(dir_name, "report.txt")
