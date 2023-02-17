@@ -23,6 +23,7 @@ def main():
         "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/StandardTableSliceGroup.java",
         "./TargetApplication/src/main/java/uk/ac/ic/doc/spe/covidsaw/App.java",
         "./Report.txt",
+        "./Results.txt",
     ]
     dir_name = "./out"
     out_file_name = join(dir_name, "report.txt")
