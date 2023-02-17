@@ -13,13 +13,14 @@ def main():
     file_names = [
         "./Breakdown.txt",
         "./RustBenchmark/src/tablesaw.rs",
+        "./RustBenchmark/src/tablesaw/lib.rs",
         "./RustBenchmark/src/tablesaw/selection.rs",
         "./RustBenchmark/src/tablesaw/table.rs",
-        "./RustBenchmark/src/tablesaw/tableslice.rs",
-        "./RustBenchmark/src/tablesaw/rle_bitmap.rs",
-        "./RustBenchmark/benches/benchmark.rs",
+        "./RustBenchmark/src/tablesaw/table_slice.rs",
+        "./RustBenchmark/src/tablesaw/table_slice_group.rs",
+        "./RustBenchmark/benches/split_on.rs",
         "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/MyBenchmark.java",
-        "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/Permutations.java",
+        "./JavaBenchmark/src/main/java/uk/ac/ic/doc/spe/StandardTableSliceGroup.java",
         "./TargetApplication/src/main/java/uk/ac/ic/doc/spe/covidsaw/App.java",
         "./Report.txt",
     ]
